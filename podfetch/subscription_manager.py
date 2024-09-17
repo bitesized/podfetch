@@ -5,7 +5,7 @@ import re
 import os
 
 # Create new Podcast object
-url = "https://feeds.redcircle.com/e30b9f10-8c86-432e-9fa0-ba287fb94e7f"
+url = input("Enter podcast rss feed: ")
 
 parsed = feedparser.parse(url)
 
